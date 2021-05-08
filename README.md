@@ -1,7 +1,6 @@
 # HexBuilder
 
-![PyPI](https://img.shields.io/pypi/v/hexbuilder)
-![PyPI - License](https://img.shields.io/pypi/l/hexbuilder)
+![GitHub Release](https://img.shields.io/github/v/release/davidmaamoaix/HexBuilder) ![PyPI](https://img.shields.io/pypi/v/hexbuilder) ![PyPI - License](https://img.shields.io/pypi/l/hexbuilder)
 
 Command line tool that converts a text file to its representing hex code.
 
