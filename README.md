@@ -1,7 +1,11 @@
 # HexBuilder
+
+![PyPI](https://img.shields.io/pypi/v/hexbuilder)
+![PyPI - License](https://img.shields.io/pypi/l/hexbuilder)
+
 Command line tool that converts a text file to its representing hex code.
 
-HexBuilder is a command line tool that was put together in 15 minutes to make byte code writing easier for the eye. It converts a commented text file:
+HexBuilder is a command line tool that makes bytecode writing easier for the eye. It converts a commented text file:
 
 ```java
 // header
@@ -17,7 +21,7 @@ ABCD DCBA 0000 0000
 AbCd cAfe
 ```
 
-and converts it to a binary file whose hex dump is:
+to a binary file whose hex dump is:
 
 ```java
 ABCD DCBA 0000 0000
@@ -25,7 +29,7 @@ ABCD DCBA 0000 0000
 1239 9129 ABCD CAFE
 ```
 
-So it basically strips all comments and whitespaces and does some random converting like ignore caps.
+So it basically strips all comments and whitespaces and converts a text file to a binary file.
 
 ## Installation
 
