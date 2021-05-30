@@ -28,6 +28,9 @@ def main():
     with open(in_file, 'r') as f:
         content = f.read()
 
+    if not content.endswith('\n'):
+        content += '\n'
+
     content = single_comment.sub('\n', content)
     content = multi_comment.sub(
         lambda x: '\n' * x.group().count('\n'),

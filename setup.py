@@ -7,7 +7,7 @@ README = (PATH / 'README.md').read_text()
 
 setup(
     name='hexbuilder',
-    version='1.0.2',
+    version='1.0.3',
     description='Command line tool that converts a text file '
                 'to its representing hex code.',
     long_description=README,
